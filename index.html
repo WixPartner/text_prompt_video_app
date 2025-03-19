@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Prompt Video App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .input-section {
+            margin-bottom: 20px;
+        }
+        .input-section input {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .input-section button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .input-section button:hover {
+            background-color: #0056b3;
+        }
+        .video-section {
+            margin-top: 20px;
+        }
+        .video-section video {
+            width: 600px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Prompt Video App</h1>
+        <div class="input-section">
+            <input type="text" id="text-prompt" placeholder="Enter text prompt...">
+            <button onclick="generateVideo()">Generate Video</button>
+        </div>
+        <div class="video-section">
+            <video id="video-output" controls></video>
+        </div>
+    </div>
+
+    <script>
+        function generateVideo() {
+            const textPrompt = document.getElementById('text-prompt').value;
+            if (textPrompt) {
+                // Replace with the actual API endpoint or function call to generate video
+                const videoUrl = `/generate_video?text=${encodeURIComponent(textPrompt)}`;
+                const videoOutput = document.getElementById('video-output');
+                videoOutput.src = videoUrl;
+                videoOutput.load();
+            } else {
+                alert('Please enter a text prompt.');
+            }
+        }
+    </script>
+</body>
+</html>
