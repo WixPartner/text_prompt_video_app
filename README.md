@@ -70,7 +70,11 @@ We are grateful for the following awesome projects when implementing LTX-Video:
 * [DiT](https://github.com/facebookresearch/DiT) and [PixArt-alpha](https://github.com/PixArt-alpha/PixArt-alpha): vision transformers for image generation.
 
 ...
-
+```
 ## Citation
-
-📄 Our tech report is out! If you find our work helpful, please ⭐️ star the repository and cite our paper.
+This section provides the necessary details for others to cite your work correctly in their own research or publications.
+@article{HaCohen2024LTXVideo, title={LTX-Video: Realtime Video Latent Diffusion}, author={HaCohen, Yoav and Chiprut, Nisan
+and Brazowski, Benny and Shalem, Daniel and Moshe, Dudu and Richardson, Eitan and Levin, Eran and Shiran, Guy and Zabari,
+Nir and Gordon, Ori and Panet, Erez and Shalev, Tzvi and Shalev, David and Shalev, Nitzan}, journal={arXiv preprint
+arXiv:2501.00103}, year={2024} }
+```
