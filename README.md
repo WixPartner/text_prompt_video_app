@@ -2,7 +2,7 @@
 
 # A Social Ninja Labs Studio
 
-This is the official repository for LTX-Video.
+This is the official repository for The Social Ninja Experiment
 
 [Website](https://www.lightricks.com/ltxv) |
 [Model](https://huggingface.co/Lightricks/LTX-Video) |
