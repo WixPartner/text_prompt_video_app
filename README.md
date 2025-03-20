@@ -4,7 +4,7 @@
 
 This is the official repository for The Social Ninja Experiment
 
-[Website](https://www.lightricks.com/ltxv) |
+[Website](https://wixpartner.github.io/text_prompt_video_app/)) |
 [Model](https://huggingface.co/Lightricks/LTX-Video) |
 [Demo](https://app.ltx.studio/ltx-video) |
 [Paper](https://arxiv.org/abs/2501.00103)
