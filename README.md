@@ -1,6 +1,6 @@
 <div align="center">
 
-# LTX-Video
+# A Social Ninja Labs Studio
 
 This is the official repository for LTX-Video.
 
